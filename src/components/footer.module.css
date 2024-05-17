@@ -1,0 +1,11 @@
+.email{
+    color: orange;
+    background-color: green;
+}
+.btn{
+    text-decoration: yellow;
+    font-size: 50px;
+}
+.btn:hover{
+    font-size: 20px;
+}

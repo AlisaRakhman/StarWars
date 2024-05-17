@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poller+One&display=swap");
+
+.App {
+  text-align: center;
+}
+
+
+/*font-family: 'Poller One', serif;*/
+:root{
+  --little-height: 8vw;
+  --middle-height: calc(var(--little-height) * 1.5);
+}
+*
+{
+  margin: 0;
+  font-family: 'Poller One', serif;
+}
+
+body{
+  background: url("./images/sky.jpg") black;
+  color: whitesmoke;
+  --button-header-contact-color: #ccc;
+}
+header{
+  background-color: rgba(131, 131, 131, 0.7);
+  /*border-radius: 15px 15px 0 0;*/
+}
+
+/*nav ul li, .button{*/
+/*    list-style: none;*/
+/*    background-color: crimson;*/
+/*    border: whitesmoke 1px solid;*/
+/*    border-radius: 1rem;*/
+/*    margin: 5px 2px;*/
+/*    padding: 0.5rem 20px;*/
+/*}*/
+
+/*nav ul li{*/
+/*    float: left;*/
+/*    cursor: pointer;*/
+/*}*/
+/*nav ul li:hover{*/
+/*    background-color: #ff1648;*/
+/*}*/
+/*header h1{*/
+/*    clear: both;*/
+/*    text-align: center;*/
+/*    font-size: 2.5rem;*/
+/*    padding: .75rem 0;*/
+/*}*/
+
+/*.left{*/
+/*    width: 25%;*/
+/*    float: left;*/
+/*    margin: 5px 15px;*/
+/*}*/
+/*.right{*/
+/*    float:right;*/
+/*    width: 50%;*/
+/*    border: 1px solid whitesmoke;*/
+/*    font-size: 1.5rem;*/
+/*    margin: 5px 5px;*/
+/*}*/
+/*.right h3{*/
+/*    text-align: center;*/
+/*}*/
+/*.right>div{*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: space-around;*/
+/*}*/
+/*.right img{*/
+/*    width: calc(100% / 3 - 10px);*/
+/*}*/
+.left img{
+  box-shadow: rgba(131, 131, 131, 0.5) 10px 10px;
+
+}
+
+/*footer{*/
+/*    background-color: rgba(131, 131, 131, 0.7);*/
+/*    border-radius: 0  0 15px 15px;*/
+/*    clear:both;*/
+/*    !*height: 4rem;*!*/
+/*    padding: 1.5rem;*/
+/*}*/
+/*.button{*/
+
+/*    font-size: 1rem;*/
+/*    width: 15rem;*/
+/*    text-align: center;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.button:hover{*/
+/*    background-color: #ff1648;*/
+/*}*/
+/*.button span{*/
+/*    color: black;*/
+/*    font-size: 1.2rem;*/
+/*    font-variant: all-petite-caps;*/
+/*}*/
+.farGalaxy{
+  color: var(--button-header-contact-color);
+  color: var(--button-header-contact-color);
+  font-size: 1.4rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  line-height: 1.2;
+  padding-left: 25px;
+}
+
+.left_bottom_img{
+  border-radius: 0 0 0 10px;
+}
